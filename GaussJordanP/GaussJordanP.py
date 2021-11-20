@@ -43,4 +43,16 @@ print('\nSolución: ')
 for i in range(v):
   print('X%d = %0.2f' %(i, x[i]), end = '\t')
 
+# Aprendizajes
 # %0.2f -> imprimir float con 2 espacios después del punto -> 0.00
+# for i in range (n) equiv a for (i = 0, i < n, i++) de C++
+# M = np.zeros((v, v + 1)) equiv array<array<float,columnas>, variables>miMatriz = {0} 
+# x = intput('') equiv cout << 'x: '; cin >> x
+# sys.exit('enunciado de error') --> para errores 
+
+#Referencias
+#https://claudiovz.github.io/scipy-lecture-notes-ES/intro/numpy/array_object.html
+#https://j2logo.com/entrada-datos-por-consola/
+#http://cod-ayu.blogspot.com/2015/10/solucion-de-sistemas-de-ecuaciones.html
+#https://docs.python.org/es/3/library/sys.html
+#https://www.codesansar.com/numerical-methods/gauss-jordan-method-python-program-output.htm
