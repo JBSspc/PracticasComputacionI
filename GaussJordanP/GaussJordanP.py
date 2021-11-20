@@ -42,3 +42,5 @@ for i in range (v):
 print('\nSolución: ')
 for i in range(v):
   print('X%d = %0.2f' %(i, x[i]), end = '\t')
+
+# %0.2f -> imprimir float con 2 espacios después del punto -> 0.00
