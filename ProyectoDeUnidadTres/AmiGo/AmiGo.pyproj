@@ -44,6 +44,7 @@
     <Compile Include="AmiGo\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HelloDjangoApp\static\site.css" />
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
@@ -51,6 +52,7 @@
     <Folder Include="AmiGo\" />
     <Folder Include="HelloDjangoApp\" />
     <Folder Include="HelloDjangoApp\migrations\" />
+    <Folder Include="HelloDjangoApp\static\" />
     <Folder Include="HelloDjangoApp\templates\" />
     <Folder Include="HelloDjangoApp\templates\HelloDjangoApp\" />
   </ItemGroup>
