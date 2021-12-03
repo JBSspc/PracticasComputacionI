@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 
-<html>
-    <head>
-        <title>{{ title }}</title>
-        {% load staticfiles %}
-        <link rel="stylesheet" type="text/css" href="{% static 'site.css' %}" />
-    </head>
-    <body>
-        <div><a href="home">Home</a></div>
-        {{ content }}
-    </body>
-</html>
+{% extends "HelloDjangoApp/layout.html" %}
+{% block content %}
+{{ content }}
+{% endblock %}

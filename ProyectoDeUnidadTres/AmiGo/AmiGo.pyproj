@@ -47,6 +47,7 @@
     <Content Include="HelloDjangoApp\static\site.css" />
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\biochem.html" />
     <Content Include="HelloDjangoApp\templates\HelloDjangoApp\index.html" />
+    <Content Include="HelloDjangoApp\templates\HelloDjangoApp\layout.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
