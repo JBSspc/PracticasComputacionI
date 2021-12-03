@@ -19,3 +19,13 @@ def index(request):
             'content' : " on " + now.strftime("%A, %d %B, %Y at %X")
         }
     )
+
+def biochem(request):
+    return render(
+        request,
+        "HelloDjangoApp/biochem.html",
+        {
+            'title' : "Biochemestry",
+            'content' : "Biochem Calculator"
+        }
+    )
