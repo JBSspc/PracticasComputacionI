@@ -26,6 +26,5 @@ def biochem(request):
         "HelloDjangoApp/biochem.html",
         {
             'title' : "Biochemestry",
-            'content' : "Biochem Calculator"
         }
     )

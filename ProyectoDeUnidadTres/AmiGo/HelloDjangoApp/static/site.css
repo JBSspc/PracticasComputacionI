@@ -4,10 +4,10 @@
 }
 
 .navbar {
-    background-color: lightslategray;
+    background-color: white;
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    color: black;
     padding: 8px 5px 8px 5px;
 }
 
@@ -22,11 +22,15 @@
 }
 
 .navbar-item {
-    font-variant: small-caps;
+    font-variant: normal;
     margin-left: 30px;
 }
 
 .body-content {
-    padding: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px 10px 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
