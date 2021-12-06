@@ -4,6 +4,13 @@
 {% block content %}
 {{ content }}
 <h1><div align ="center"><strong>Biochemestry</strong></div></h1>
-<div align ="justify"><p>p1</p><p>p2</p><p>p3</p></div>
+<div align ="justify"><p>With our Biochemestry Calculator you will be able to compute any of the following procedures: </br> 1 : Calculate pH </br> 2 : Determine the dominant species of a solution </br> 3 : Calculate pI </br> 4 : Calculate net charge of a molecule at an specific pH </br> 5 : Balancing of chemical reactions</p>
+    <p>Below is a brief description of the theory behind each procedure:</br></p>
+    <p><strong>Calculating pH</strong></br>Water tends to ionise into H+ and OH- ions.  When weak acids are dissolved in water, their ionisation contributes H+; weak bases consume H+ when protonated. These processes are governed by equilibrium constants. The total concentration of [H+] cannot be measured experimentally and is expressed as the pH of the solution. To predict the ionisation state of solutes in water, we must consider the relevant equilibrium constants for each ionisation reaction. Therefore, by using the Henderson-Hasselbalch equation, we can calculate the pH.</p>
+    <p><strong> Determining the dominant species in a solution</strong></br> By applying the logarithm to the Henderson-Hasselbalch equation and and clearing de ratio pka / pH, we can determine wheter the <strong>protonated</strong> or the <strong>deprotonated</strong> species has a dominant presence in the solution.</p>
+    <p><strong>Calculating the pI</strong></br>The isoelectric point (pI) is the pH at which the studied molecule has a neutral net charge. To find it, we must average the 2 pHs between which the molecule adquires such charge.</p>
+    <p><strong>Calculating the net charge of a molecule at an specific pH</strong></br> The net charge of a molecule at an specific pH is the summatory of the charges of the groups tha compound that molecule. Depending on the pH at which each group works with its characteristic charge, compared with the buffer pH, the charge may remain the same or change. At the end, the net charge at the buffer pH will be the sum of the resulting charges after the comparission. </p>
+    <p><strong> Balancing of chemical reactions</strong></br>When talking about the chemical equations that describe the studied reaction, it is important to verify that they comply with the law of conservation of mass. To do so, there is a variety of methods to corroborate this: trial and error, redox and algebraic method. This last one turns into a system of equations which can be solved my the Gauss-Jordan method. Therefore, in our program, you can balance your equation by using the Gauss Jordan Method. </p>
+    </div>
 {% endblock %}
 
